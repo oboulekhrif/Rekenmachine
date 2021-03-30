@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
     <title>Rekenmachine</title>
 </head>
-<body>
-    <h1>Rekenmachine</h1>
-    <p>ik ga een super awes....</p>
+<body >
+    <h1>Rekenmachine🎈</h1>
+    
+    <p class="tekst">Ik ga een super coole rekenmachine voor u maken.</p>
+
+
+    <form name="reken">
+        Getal 1:<br>
+        <input type="text" size="15" name="getal1"><br>
+        Getal 2:<br>
+        <input type="text" size="15" name="getal2"><br><br>
+        
+        <input type=button value="+" id="kop" onclick="Reken('+')">
+        <input type=button value="-" id="kop" onclick="Reken('-')">
+        <input type=button value="x" id="kop" onclick="Reken('x')">
+        <input type=button value="/" id="kop" onclick="Reken('/')"><br><br>
+        
+        Uitkomst:<br>
+        <input type="text" size="15" name="uitkomst"><br><br>
+        
+        <input type=button value="Opnieuw" id="kop" onclick="Schonen()"></form>
 </body>
+<script src="index.js"></script>
 </html>
